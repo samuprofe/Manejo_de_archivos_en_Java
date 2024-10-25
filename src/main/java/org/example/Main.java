@@ -37,7 +37,7 @@ public class Main {
             objectOutputStream.close();
             System.out.println("Se han exportado los datos al archivo curso.dat");
 
-            objectOutputStream = new ObjectOutputStream(new FileOutputStream("cursoS.dat"));
+            objectOutputStream = new ObjectOutputStream(new FileOutputStream("cursos.dat"));
             objectOutputStream.writeObject(cursos);
             objectOutputStream.close();
             System.out.println("Se han exportado los datos al archivo cursos.dat");
